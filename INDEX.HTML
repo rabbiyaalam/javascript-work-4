@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+</head>
+<body>
+    <a href="INDEX.HTML">page 1</a>
+    <script>
+    
+    // var studentNames = [];
+    
+    // var studentNames = new Array();
+    
+    // var stringsArray = ["apple", "banana", "cherry"];
+    
+    // var numbersArray = [1, 2, 3, 4, 5];
+    
+    // var booleanArray = [true, false, true];
+    
+    // var  mixedArray = [1, "apple", true, 3.14];
+
+    // var qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+
+// document.write("<h2>Education Qualifications in Pakistan:</h2>");
+// document.write("<ul>");
+// qualifications.forEach(qualification => {
+//   document.write("<li>" + qualification + "</li>");
+// });
+// document.write("</ul>");
+
+// 
+
+// Store student names and their scores
+let studentNames = ["habiba", "rabi", "kashaf"];
+let scores = [420, 380, 450];
+let totalMarks = 500;
+
+// Calculate and display scores & percentages of students
+for (let i = 0; i < studentNames.length; i++) {
+    let percentage = (scores[i] / totalMarks) * 100;
+    console.log(`${studentNames[i]} scored ${scores[i]} out of ${totalMarks}, with a percentage of ${percentage}%`);
+}
+
+</script>
+
+
+</body>
+</html>
